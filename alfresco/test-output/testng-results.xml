@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-14T08:33:58Z" name="Default suite" finished-at="2020-09-14T08:34:41Z" duration-ms="42553">
+    <groups>
+      <group name="P0">
+        <method signature="Files.PagesOperations()[pri:0, instance:tests.Files@316bcf94]" name="PagesOperations" class="tests.Files"/>
+      </group> <!-- P0 -->
+    </groups>
+    <test started-at="2020-09-14T08:33:58Z" name="Default test" finished-at="2020-09-14T08:34:41Z" duration-ms="42553">
+      <class name="tests.Files">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.Files@316bcf94]" started-at="2020-09-14T11:33:58Z" name="setUp" finished-at="2020-09-14T11:34:02Z" duration-ms="4310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PagesOperations()[pri:0, instance:tests.Files@316bcf94]" started-at="2020-09-14T11:34:02Z" name="PagesOperations" finished-at="2020-09-14T11:34:40Z" duration-ms="38004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PagesOperations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Files@316bcf94]" started-at="2020-09-14T11:34:40Z" name="tearDown" finished-at="2020-09-14T11:34:41Z" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Files -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

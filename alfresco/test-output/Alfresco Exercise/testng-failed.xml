@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes"
+	name="Failed suite [Alfresco Exercise]">
+	<parameter name="browser" value="Firefox" />
+	<test parallel="classes" name="Release Sep2020(failed)">
+		<groups>
+			<run>
+				<include name="P0" />
+			</run>
+		</groups>
+		<classes>
+			<class name="tests.Settings">
+				<methods>
+					<include name="ChangeProvider" />
+					<include name="setUp" />
+					<include name="tearDown" />
+				</methods>
+			</class> <!-- tests.Settings -->
+			<class name="tests.Login">
+				<methods>
+					<include name="setUp" />
+					<include name="LoginWithCorrectCredentials" />
+					<include name="tearDown" />
+				</methods>
+			</class> <!-- tests.Login -->
+			<class name="tests.Files">
+				<methods>
+					<include name="setUp" />
+					<include name="PagesOperations" />
+					<include name="tearDown" />
+				</methods>
+			</class> <!-- tests.Files -->
+		</classes>
+	</test> <!-- Release Sep2020(failed) -->
+</suite> <!-- Failed suite [Alfresco Exercise] -->

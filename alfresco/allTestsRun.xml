@@ -1,0 +1,18 @@
+<suite name="Alfresco Exercise" parallel="classes"
+	thread-count="3">
+	<parameters>
+		<parameter name="browser" value="Chrome" />
+	</parameters>
+	<groups>
+		<run>
+			<include name="P0" />
+		</run>
+	</groups>
+	<test name="Release Sep2020">
+		<classes>
+			<class name="tests.Settings" />
+			<class name="tests.Login" />
+			<class name="tests.Files" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
